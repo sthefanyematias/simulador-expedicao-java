@@ -86,7 +86,6 @@ public class MissaoEspacial {
 				}
 				System.out.println("Status: " + statusVida);
 
-				// Alertas adicionais
 				if (membro.getSaude() <= 20 && membro.getSaude() > 0) {
 					System.out.println("Alerta: Saúde Crítica.");
 				} else if (membro.getSaude() == 0) {
